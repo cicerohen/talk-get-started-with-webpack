@@ -7,8 +7,8 @@
     "dev:server": "webpack-dashboard -- webpack-dev-server --watch --config build/webpack.dev.config.js --mode=development",
     "prod:build": "webpack --config build/webpack.prod.config.js --mode=production",
     "prod:server": "webpack-dev-server --watch --config build/webpack.prod.config.js --mode=production",
-    "start": "npm run dev:server",
-    "build": "npm run prod:build",
+    "start": "yarn dev:server",
+    "build": "yarn prod:build",
     "test": ""
   },
   "repository": {
